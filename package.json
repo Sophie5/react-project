@@ -4,7 +4,9 @@
   "description": "practice",
   "main": "index.js",
   "scripts": {
-    "test": "run"
+    "test": "run",
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base"
   },
   "repository": {
     "type": "git",
